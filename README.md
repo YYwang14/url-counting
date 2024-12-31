@@ -20,6 +20,7 @@ This project was developed and tested on the following setup:
 
 ### 1. URL Generation
 - **File**: `url_generation.py`
+- **Credit**: This script was provided by Prof. Yifan Wang at the University of Hawaii at Manoa.
 - **Description**: Generates a large file of random URLs for testing.
 - **Usage**:
   ```bash
