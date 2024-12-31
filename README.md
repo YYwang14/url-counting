@@ -74,7 +74,7 @@ This project was developed and tested on the following setup:
 - **Execution**:
   ```bash
   ./url_counting
-  ```  ```
+  ```
 
 ## Comparison
 
