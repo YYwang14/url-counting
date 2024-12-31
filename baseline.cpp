@@ -113,7 +113,7 @@ int main() {
         logMessage(logFile, "Finished sorting");
 
         // Write top 100 to file
-        std::string resultFilename = "results_" + getCurrentTimestamp() + ".txt";
+        std::string resultFilename = "baseline_results_" + getCurrentTimestamp() + ".txt";
         std::ofstream outFile(resultFilename);
         if (!outFile) {
             throw std::runtime_error("Failed to create output file: " + resultFilename);

@@ -60,11 +60,11 @@ if __name__ == "__main__":
 
 	
 
-	filename = "urls_s.txt"
+	filename = "urls.txt"
 
 	max_num = 1000 
 
-	max_size = 10 * MB
+	max_size = 10 * GB
 
 	gen = URLGenerator()
 

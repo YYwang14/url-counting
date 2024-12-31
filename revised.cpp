@@ -103,7 +103,7 @@ int main() {
     std::stringstream ss;
     ss << std::put_time(std::localtime(&timestamp), "%Y%m%d_%H%M%S");
     
-    std::string logFilename = "baseline_" + ss.str() + ".log";
+    std::string logFilename = "revised_" + ss.str() + ".log";
     std::ofstream logFile(logFilename);
     if (!logFile) {
         std::cerr << "Failed to open log file: " << logFilename << std::endl;
@@ -163,7 +163,7 @@ int main() {
         std::sort(results.begin(), results.end(),
                  [](const auto& a, const auto& b) { return a.second > b.second; });
 
-        std::string resultFilename = "results_" + ss.str() + ".txt";
+        std::string resultFilename = "revised_results_" + ss.str() + ".txt";
         std::ofstream outFile(resultFilename);
         if (!outFile) {
             throw std::runtime_error("Failed to create result file");

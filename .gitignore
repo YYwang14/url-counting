@@ -1,6 +1,5 @@
 *.txt
 *.log
 baseline
-v3
 revised
-v4
+url_counting
